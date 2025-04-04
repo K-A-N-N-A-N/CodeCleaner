@@ -1,7 +1,8 @@
 # CodeCleaner
 CodeCleaner is an innovative tool designed to streamline code quality improvement by automating comprehensive documentation, enhancing readability through intelligent variable renaming, and enforcing consistent coding practices across large-scale projects
 
-![CodeCleaner Demo](![CodeGIF](https://github.com/user-attachments/assets/0d3cefca-4bc5-45c1-a61d-712a44384195))
+![CodeCleaner Demo](![Demo](assets/CodeVideo.mp4)
+)
 
 ## Requirments
 - Python 3 (>= v3.12)
