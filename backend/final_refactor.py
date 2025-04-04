@@ -3,10 +3,10 @@ from transformers import AutoModel, AutoTokenizer
 import time
 from datetime import datetime
 
-client = OpenAI()
+client = OpenAI() # Use your OpenAI API key here
 
 # Load the T5-based model
-checkpoint = "D:/CodeCleaner/Main/CodeCleaner/backend/summaryt5"
+checkpoint = "D:/CodeCleaner/Main/CodeCleaner/backend/summaryt5" # Path to the T5 model
 tokenizer = AutoTokenizer.from_pretrained(checkpoint, trust_remote_code=True)
 model = AutoModel.from_pretrained(checkpoint, trust_remote_code=True)
 

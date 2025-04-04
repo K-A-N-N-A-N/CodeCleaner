@@ -5,7 +5,7 @@ import subprocess
 import tempfile
 import os
 
-client = OpenAI()
+client = OpenAI() # Use your OpenAI API key here
 
 def run_java_code(code, input_value):
     """Run Java code with given input and return output."""
