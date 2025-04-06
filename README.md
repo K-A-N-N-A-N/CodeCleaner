@@ -37,8 +37,9 @@ npm install
   To train the model, run:
   ```bash
   python model.py
+  ```
 
-   - `Ollama` (Optinal for Deepseek)
+- `Ollama` (Optinal for Deepseek)
      Use link : https://ollama.com/download
      Run the command:
      ``` 
