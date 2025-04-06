@@ -40,8 +40,9 @@ npm install
   ```
 
 - `Ollama` (Optinal for Deepseek)
-     Use link : https://ollama.com/download
-     Run the command:
+     Download Using link : https://ollama.com/download
+     <br/>
+     Then run the command:
      ``` 
      ollama pull deepseek-coder:6.7b
     ``` 
