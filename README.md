@@ -31,3 +31,10 @@ Change to the frontend directory and type the following command:
 ```
 npm install
 ```
+
+### Installing Other Dependencies
+   - `summaryT5` (run ``` python model.py  ``` [Then train the model])
+   - `Ollama` (Optinal for Deepseek)
+     Use link : https://ollama.com/download
+     then run  ``` ollama pull deepseek-coder:6.7b
+  ``` (Ensure you have sufficient disk space, as the model requires approximately 3.8GB of storage.)
