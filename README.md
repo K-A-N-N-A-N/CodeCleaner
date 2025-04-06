@@ -32,8 +32,42 @@ npm install
 ```
 
 ### Installing Other Dependencies
-   - `summaryT5` (run ``` python model.py  ``` [Then train the model])
+   - `summaryT5` (Run the command:
+   ```bash 
+   python model.py 
+    ``` 
+   [Then train the model])
    - `Ollama` (Optinal for Deepseek)
      Use link : https://ollama.com/download
-     then run  ``` ollama pull deepseek-coder:6.7b
-  ``` (Ensure you have sufficient disk space, as the model requires approximately 3.8GB of storage.)
+     Run the command:
+     ``` 
+     ollama pull deepseek-coder:6.7b
+    ``` 
+    (Ensure you have sufficient disk space, as the model requires approximately 3.8GB of storage.)
+
+## Running the Application
+
+1. Start the Backend
+Change to the backend directory and type the following command:
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
+(Wait for it to show "Application startup complete.")
+
+2. Start the FrontEnd React Application:
+Change to the frontend directory and type the following command:
+```bash
+npm run dev
+```
+Open your web browser and navigate to:
+```
+http://localhost:5000
+```
+
+## Usage
+
+1. Enter or paste Any Java code that you want to Clean in the left text area
+2. Choose Which all Cleaning operation you want (Code Optimization,Variable Renaming,Code Summarization)
+3. Click the "CleanCode" button
+4. Wait for the analysis to complete
+5. View the Cleaned Code in the right text area
