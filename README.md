@@ -32,11 +32,12 @@ npm install
 ```
 
 ### Installing Other Dependencies
-   - `summaryT5` (Run the command:
-   ```bash 
-   python model.py 
-    ``` 
-   [Then train the model])
+
+- **`summaryT5`**  
+  To train the model, run:
+  ```bash
+  python model.py
+
    - `Ollama` (Optinal for Deepseek)
      Use link : https://ollama.com/download
      Run the command:
